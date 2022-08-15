@@ -1,4 +1,4 @@
-# Problem Set 1
+# Problem Set 2
 # Name: Jafar Bakhshaliyev
 
 # Problem 1
