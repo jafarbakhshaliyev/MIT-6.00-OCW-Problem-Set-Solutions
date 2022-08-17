@@ -187,7 +187,7 @@ def test_is_valid_word(word_list):
 
         failure = True
 
-    # test 6
+     # test 6
     
     word = "even"
 
