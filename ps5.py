@@ -47,7 +47,7 @@ def get_frequency_dict(sequence):
     return freq
 
 
-# Problem 1: Scoring a word
+# Problem 1
 
 def get_word_score(word, n):
     """
