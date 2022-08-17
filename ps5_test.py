@@ -40,7 +40,7 @@ def test_deal_hand():
 
         return
 
-        # (B)
+    # (B)
     # Tests randomness
 
     repeats = 0
@@ -97,7 +97,7 @@ def test_update_hand():
         print("\tReturned: ", hand2, "-- but expected:", expected_hand1, "or", expected_hand2)
         return
 
-        # test 2
+    # test 2
 
     hand = {'e': 1, 'v': 2, 'n': 1, 'i': 1, 'l': 2}
     word = "evil"
@@ -110,7 +110,7 @@ def test_update_hand():
         print("\tReturned: ", hand2, "-- but expected:", expected_hand1, "or", expected_hand2)
         return
 
-        # test 3
+    # test 3
 
     hand = {'h': 1, 'e': 1, 'l': 2, 'o': 1}
     word = "hello"
