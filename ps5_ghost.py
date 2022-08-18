@@ -97,10 +97,8 @@ def play_one(wordlist):
     print('Player 1 goes first.')
     word = ''
     print('Current word fragment:', word)
-    i = 0
     count = 1
-    while isvalid_word(word) or i == 1:
-        i += 1
+    while True:
         if count % 2 != 0:
             letter = input('Player 1 says letter:')
             print()
