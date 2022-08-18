@@ -140,7 +140,7 @@ def update_hand(hand, word):
     for letter in word:
         if letter in use_hand: use_hand[letter] -= 1
     for let in use_hand.keys():
-        if use_hand[let] != 0: remaining_hand[let] = use_hand[let]
+        if use_hand[let] > 0: remaining_hand[let] = use_hand[let]
     return remaining_hand
 
 
